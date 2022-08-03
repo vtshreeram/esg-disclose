@@ -149,3 +149,17 @@ margin-top: 10px;
 
 
 }
+
+
+.MakePayment{
+    width: 101px;
+    height: 37px;
+    left: 1107.5px;
+    top: 714px;   
+    background: #3F87C2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}

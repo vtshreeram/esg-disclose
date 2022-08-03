@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './body.module.css'
 import {RiArrowDropLeftLine} from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 const CreratBody = () => {
   return (
@@ -57,7 +58,9 @@ const CreratBody = () => {
            
            <div className={style.btn}>
             <button className={style.btn1}>back</button>
+            <Link to='/ChoosePackage'>
             <button className={style.btn2}>next</button>
+            </Link>
 
 
            </div>

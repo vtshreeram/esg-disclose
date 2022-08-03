@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './ChoosePackageBody.module.css'
 import {RiArrowDropLeftLine} from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 export const ChoosePackageBody = () => {
   return (
@@ -39,6 +40,10 @@ export const ChoosePackageBody = () => {
                     <p>£1650.00</p>
 
                 </div>
+                <Link to='CardPay'>
+
+                <button className={style.MakePayment}>Make Payment</button>
+                </Link>
             </div>
 
         </div>
