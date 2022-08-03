@@ -1,0 +1,74 @@
+import React from 'react'
+import style from './body.module.css'
+import {RiArrowDropLeftLine} from 'react-icons/ri'
+
+const CreratBody = () => {
+  return (
+    <div className={style.body}>
+        <div className={style.topBody}>
+
+       <RiArrowDropLeftLine size={35} style={{marginRight: '8px', color: '#5E5873'}}  /> 
+        <div>
+        <h4 className={style.bodyTitle}>Account Information</h4>
+        <p className={style.bodySubtitle}>Enter your username, password details</p>
+
+        </div>
+        </div>
+        <div className={style.bodyInputs}>
+            <div className={style.row}> 
+            <div className={style.innput}>
+                <label>First Name</label>
+                <input type='text' />
+            </div>
+            <div className={style.innput}>
+                <label>Last Name</label>
+                <input type='text' />
+            </div></div>
+            
+            <div className={style.row2}> 
+            <div className={style.innput}>
+                <label>Company Email id</label>
+                <input type='text' />
+            </div>
+            <div className={style.innput}>
+                <label>Mobile Number</label>
+                <input type='text' />
+            </div></div>
+
+            <div className={style.row3}> 
+            <div className={style.innput}>
+                <label>Password</label>
+                <input type='text' />
+            </div>
+            <div className={style.innput}>
+                <label>Confirm Password</label>
+                <input type='text' />
+            </div></div>
+
+            <div className={style.row4}> 
+            <div className={style.innput}>
+                <label>Company Name</label>
+                <input type='text' />
+            </div>
+            <div className={style.innput}>
+                <label>Company Location</label>
+                <input type='text' />
+            </div></div>
+           
+           <div className={style.btn}>
+            <button className={style.btn1}>back</button>
+            <button className={style.btn2}>next</button>
+
+
+           </div>
+           
+           
+           
+
+
+        </div>
+    </div>
+  )
+}
+
+export default CreratBody
