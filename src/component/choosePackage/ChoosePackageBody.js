@@ -40,7 +40,7 @@ export const ChoosePackageBody = () => {
                     <p>£1650.00</p>
 
                 </div>
-                <Link to='CardPay'>
+                <Link to='/CardPay'>
 
                 <button className={style.MakePayment}>Make Payment</button>
                 </Link>

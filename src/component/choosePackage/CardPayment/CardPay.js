@@ -5,6 +5,8 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {RiArrowDropRightLine} from 'react-icons/ri'
 import logo from '../../../assets/Account_info.png'
 import CardPaymentBody from './CardPaymentBody'
+import { BiLogIn } from 'react-icons/bi'
+
 
 
 const CardPay = () => {
@@ -38,7 +40,7 @@ const CardPay = () => {
         </div>
 
         <div className={style.icon}>
-          <BiHomeAlt size={25} className={style.icon3}/>
+          <BiLogIn size={25} className={style.icon3}/>
 
           <div>
           <p className={style.title}>Login</p>

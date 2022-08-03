@@ -5,6 +5,9 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {RiArrowDropRightLine} from 'react-icons/ri'
 import logo from '../../assets/Account_info.png'
 import { ChoosePackageBody } from './ChoosePackageBody'
+import { BiLogIn } from 'react-icons/bi'
+
+
 
 const ChoosePackage = () => {
   return (
@@ -37,7 +40,7 @@ const ChoosePackage = () => {
         </div>
 
         <div className={style.icon}>
-          <BiHomeAlt size={25} className={style.icon3}/>
+          <BiLogIn size={25} className={style.icon3}/>
 
           <div>
           <p className={style.title}>Login</p>

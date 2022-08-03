@@ -5,6 +5,7 @@ import {BiHomeAlt} from 'react-icons/bi'
 import {AiOutlineUser} from 'react-icons/ai'
 import {RiArrowDropRightLine} from 'react-icons/ri'
 import CreateBody from './creratBody'
+import { BiLogIn } from 'react-icons/bi'
 
 
 const CreateAccount = () => {
@@ -38,7 +39,7 @@ const CreateAccount = () => {
             </div>
 
             <div className={style.icon}>
-              <BiHomeAlt size={25} className={style.icon3}/>
+              <BiLogIn size={25} className={style.icon3}/>
 
               <div>
               <p className={style.title}>Login</p>
