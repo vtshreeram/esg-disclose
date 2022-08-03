@@ -12,9 +12,12 @@ export const ChoosePackageBody = () => {
         <RiArrowDropLeftLine size={35} style={{marginRight: '8px', color: '#5E5873'}}  /> 
             <h4> Payment Gateway</h4>
             </div>
-            <p>Change Package</p>
+            <div>
+
+            <p className={style.changePlan}>Change Package</p>
+            </div>
         </div>
-        <p className={style.subHead}>Make payments to proceed</p>
+        <span className={style.subHead}>Make payments to proceed</span>
         <br/>
         <br/>
 

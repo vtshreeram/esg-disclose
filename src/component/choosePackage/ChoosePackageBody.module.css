@@ -1,167 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
-.packageBody{
-    margin-top: 10px;
+.packageBody {
+  margin-top: 10px;
 }
 
-.packageBodyHead{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 10%;
+.packageBodyHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
 }
 
-.head{
-    display: flex;
-    align-self: center;
+.head {
+  display: flex;
+  align-self: center;
 }
 
-.head h4{
-    margin-top: 5px;
-    height: 29px;
-left: 0%;
-right: -8.77%;
-top: calc(50% - 29px/2 - 15.5px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-
-/* 1) Theme Color / Heading & Display - Text */
-
-color: #5E5873;
+.head h4 {
+  margin-top: 5px;
+  height: 29px;
+  left: 0%;
+  right: -8.77%;
+  top: calc(50% - 29px / 2 - 15.5px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5e5873;
 }
 
-.packageBodyHead p{
-    width: 118px;
-height: 24px;
-left: 1016px;
-top: 273px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-font-feature-settings: 'tnum' on, 'lnum' on;
-
-color: #3F87C2;
-cursor: pointer;
-}
-
-.subHead{
-    height: 21px;
-left: 0%;
-right: 51.88%;
-top: calc(50% - 21px/2 + 19.5px);
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-color: #6E6B7B;
-margin-left: 150px;
-margin-top: 8px;
-
-}
-
-.package{
-height: 24px;
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-font-feature-settings: 'tnum' on, 'lnum' on;
-margin-left: 150px;
-color: #697386;
-margin-top: 150px;
-
+.head .changePlan p {
+  width: 136px;
+  height: 24px;
+  left: 1016px;
+  top: 273px;  
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3F87C2;
 }
 
 
-.price{
-height: 44px;
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 44px;
-letter-spacing: -0.02em;
-font-feature-settings: 'tnum' on, 'lnum' on;
-color: #3F87C2;
-margin-left: 150px;
+.packageBodyHead p {
+  width: 118px;
+  height: 24px;
+  left: 1016px;
+  top: 273px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "tnum" on, "lnum" on;
+
+  color: #3f87c2;
+  cursor: pointer;
 }
 
-
-.totel{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+.subHead {
+  height: 21px;
+  left: 0%;
+  right: 51.88%;
+  top: calc(50% - 21px / 2 + 19.5px);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #6e6b7b;
+  margin-left: 150px;
+  margin-top: 8px;
 }
 
-.totel .left{
-    font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-font-feature-settings: 'tnum' on, 'lnum' on;
-color: #4B4B4B;
+.package {
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  margin-left: 150px;
+  color: #697386;
+  margin-top: 150px;
 }
 
-.subTotal{
-    text-align: end;
+.price {
+  height: 44px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #3f87c2;
+  margin-left: 150px;
 }
 
-.subTotal p{
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-font-feature-settings: 'tnum' on, 'lnum' on;
-color: #4B4B4B;
-margin-top: 10px;
+.totel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.column{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
+.totel .left {
+    font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #4b4b4b;
 }
 
-.column2{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
+.subTotal {
+  text-align: end;
+ 
 }
 
-.column2 p{
-    color: gray;
-
-
+.subTotal p {
+    font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #4b4b4b;
+  margin-top: 10px;
 }
 
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
 
-.MakePayment{
-    width: 101px;
-    height: 37px;
-    left: 1107.5px;
-    top: 714px;   
-    background: #3F87C2;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    margin-top: 20px;
+.column2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.column2 p {
+  color: gray;
+}
+
+.MakePayment {
+  height: 37px;
+  left: 1107.5px;
+  top: 714px;
+  background: #3f87c2;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 0 10px;
+
 }

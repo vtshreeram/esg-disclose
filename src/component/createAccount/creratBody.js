@@ -57,7 +57,7 @@ const CreratBody = () => {
             </div></div>
            
            <div className={style.btn}>
-            <button className={style.btn1}>back</button>
+            {/* <button className={style.btn1}>back</button> */}
             <Link to='/ChoosePackage'>
             <button className={style.btn2}>next</button>
             </Link>

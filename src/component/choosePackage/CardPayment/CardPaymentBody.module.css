@@ -84,8 +84,9 @@ border-radius: 4px;
 }
 
 .or span{
-    width: 280px;
+    width: 370px;
     margin-left: 30px;
+    font-family: "Montserrat";
 }
 
 .input {
@@ -130,6 +131,7 @@ margin-left: 40%;
 border: none;
 cursor: pointer;
 color: white;
+font-family: "Montserrat";
 
 }
 

@@ -76,7 +76,7 @@ color: #6E6B7B;
 .innput input{
     width: 300px;
     border: 1px solid gray;
-    padding: 6px;
+    padding: 10px 6px;
     border-radius: 6px;
     margin-top: 8px;
     outline: none;
@@ -94,13 +94,13 @@ color: #6E6B7B;
 }
 
 .btn{
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 7% ;
+    margin: 0 7% ; */
 }
 
-.btn1{
+/* .btn1{
     width: 101px;
     height: 37px;
     left: 1107.5px;
@@ -110,12 +110,12 @@ color: #6E6B7B;
     border: none;
     color: white;
     cursor: pointer;
+    text-transform: capitalize;
 
 
-}
+} */
 
-.btn2{
-    width: 101px;
+.btn2{   
     height: 37px;
     left: 1107.5px;
     top: 714px;   
@@ -124,4 +124,8 @@ color: #6E6B7B;
     border: none;
     color: white;
     cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 84%;
+    padding: 0 30px;
+
 }
