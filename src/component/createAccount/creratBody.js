@@ -23,44 +23,44 @@ const CreratBody = () => {
         </div>
         <div className={style.bodyInputs}>
           <div className={style.row}>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>First Name</label>
               <input type="text" />
             </div>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Last Name</label>
               <input type="text" />
             </div>
           </div>
 
           <div className={style.row2}>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Company Email id</label>
               <input type="text" />
             </div>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Mobile Number</label>
               <input type="text" />
             </div>
           </div>
 
           <div className={style.row3}>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Password</label>
               <input type="text" />
             </div>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Confirm Password</label>
               <input type="text" />
             </div>
           </div>
 
           <div className={style.row4}>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Company Name</label>
               <input type="text" />
             </div>
-            <div className={style.innput}>
+            <div className={style.input}>
               <label>Company Location</label>
               <input type="text" />
             </div>

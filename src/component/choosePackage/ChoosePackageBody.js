@@ -28,7 +28,7 @@ export const ChoosePackageBody = () => {
 
         <span className={style.package}>Bronze Package</span>
         <h3 className={style.price}>£ 1500</h3>
-        <div className={style.totel}>
+        <div className={style.total}>
           <p className={style.left}>ESG-DISCLOSURES - BRONZE PACKAGE</p>
           <div className={style.subTotal}>
             <p>£ 1500</p>
