@@ -4,20 +4,20 @@ import style from './CreateAccount.module.css'
 import {BiHomeAlt} from 'react-icons/bi'
 import {AiOutlineUser} from 'react-icons/ai'
 import {RiArrowDropRightLine} from 'react-icons/ri'
-import CreateBody from './creratBody'
-import { BiLogIn } from 'react-icons/bi'
+import { FiCreditCard } from 'react-icons/fi'
 
 
-const CreateAccount = () => {
+const CreateAccount = ({acc,pack, pay}) => {
+  console.log(acc,pack);
   return (
     <div className={style.container}>
      
-        <img height={620} src={logo} alt='logo' />
+        <img className={pay ? style.img : style.fullImage} src={logo} alt='logo' />
     
         <div className={style.menu}>
           <div className={style.head}>
-            <div className={style.icon}>
-              <BiHomeAlt size={25} className={style.icon1} />
+            <div className={ style.icon}>
+              <BiHomeAlt size={25} className={ acc ?  style.icon1 : style.accontIcon} />
 
               <div>
               <p className={style.title}>Account</p>
@@ -27,7 +27,7 @@ const CreateAccount = () => {
               <RiArrowDropRightLine size={25} style={{marginLeft: '8px'}} /> 
             </div>
             <div className={style.icon}>
-              <AiOutlineUser size={25} className={style.icon2} />
+              <AiOutlineUser size={25} className={ pack ? style.icon2 : style.packageIcon} />
 
               <div>
               <p className={style.title}>Choose Package</p>
@@ -39,7 +39,7 @@ const CreateAccount = () => {
             </div>
 
             <div className={style.icon}>
-              <BiLogIn size={25} className={style.icon3}/>
+              <FiCreditCard size={25} className={style.icon3}/>
 
               <div>
               <p className={style.title}>Login</p>
@@ -53,8 +53,7 @@ const CreateAccount = () => {
           </div>
           <hr />
 
-        <CreateBody />
-        </div>
+           </div>
     
     </div>
 

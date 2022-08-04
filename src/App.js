@@ -1,7 +1,7 @@
 import React from 'react'
-import CreateAccount from './component/createAccount/CreateAccount'
-import ChoosePackage from './component/choosePackage/ChoosePackage'
-import CardPay from './component/choosePackage/CardPayment/CardPay'
+import CreateAccount from './component/createAccount/creratBody'
+import  {ChoosePackageBody}  from './component/choosePackage/ChoosePackageBody'
+import CardPaymentBody from './component/choosePackage/CardPayment/CardPaymentBody'
 import { BrowserRouter ,Routes, Route  } from 'react-router-dom'
 
 const App = () => {
@@ -10,16 +10,16 @@ const App = () => {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={
-      <CreateAccount />
+      <CreateAccount  />
 
         } />
          <Route path='/ChoosePackage' element={
-      <ChoosePackage />
+      <ChoosePackageBody  />
 
         } />
      
      <Route path='/CardPay' element={
-      <CardPay />
+      <CardPaymentBody />
 
         } />
       

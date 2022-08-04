@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+.container{
+    display: flex;
+    position: relative;
+}
 .body{
-    margin-top: 10px;
-    margin-left: 100px;
+    position: absolute;
+    left: 22rem;
+    top: 100px
    
 }
 .topBody{
@@ -34,7 +40,9 @@ color: #6E6B7B;
 
 .bodyInputs{
     margin-top: 20px;
-    margin-right: 100px;
+   margin-left: 10%;
+
+   
 }
 
 
@@ -43,6 +51,8 @@ color: #6E6B7B;
     align-items: center;
     justify-content: space-around;
     margin: 20px 0;
+ 
+
 }
 
 .row2{
@@ -78,8 +88,8 @@ color: #6E6B7B;
     border: 1px solid gray;
     padding: 10px 6px;
     border-radius: 6px;
-    margin-top: 8px;
     outline: none;
+    margin: 10px 30px;
 }
 
 .innput label{
@@ -90,6 +100,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 15px;
 color: #6E6B7B;
+margin: 0 30px;
+
 
 }
 

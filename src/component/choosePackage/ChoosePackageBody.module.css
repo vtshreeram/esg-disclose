@@ -1,14 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-
-.packageBody {
-  margin-top: 10px;
+.container{
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
+
+.packageBody{
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  left: 80px;
+ 
+}
+
 
 .packageBodyHead {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 10%;
+  margin: 0 19%;
 }
 
 .head {
@@ -28,24 +38,14 @@
   font-size: 24px;
   line-height: 29px;
   color: #5e5873;
+  margin-bottom: 10px;
 }
 
-.head .changePlan p {
-  width: 136px;
-  height: 24px;
-  left: 1016px;
-  top: 273px;  
-  font-family: 'SF Pro Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #3F87C2;
-}
+
 
 
 .packageBodyHead p {
-  width: 118px;
+  width: 136px;
   height: 24px;
   left: 1016px;
   top: 273px;
@@ -53,11 +53,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
+  line-height: 24px;  
   font-feature-settings: "tnum" on, "lnum" on;
-
   color: #3f87c2;
   cursor: pointer;
 }
@@ -73,7 +70,7 @@
   font-size: 16px;
   line-height: 21px;
   color: #6e6b7b;
-  margin-left: 150px;
+  margin-left: 300px;
   margin-top: 8px;
 }
 
@@ -84,8 +81,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  font-feature-settings: "tnum" on, "lnum" on;
-  margin-left: 150px;
+  margin-left: 300px;
   color: #697386;
   margin-top: 150px;
 }
@@ -100,15 +96,15 @@
   letter-spacing: -0.02em;
   font-feature-settings: "tnum" on, "lnum" on;
   color: #3f87c2;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 .totel {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 22%;
+  margin-right: 18%;
 }
 
 .totel .left {
