@@ -2,11 +2,12 @@ import React from "react";
 import style from "./CardPaymentBody.module.css";
 import { RiArrowDropLeftLine } from "react-icons/ri";
 import Head from "../../CreateAccountNav/CreateAccount";
+import { Link } from "react-router-dom";
 
 const CardPaymentBody = () => {
   return (
     <div className={style.container}>
-      <Head pack='pack' />
+      <Head pack="pack" />
 
       <div className={style.body}>
         <div className={style.cardPayBodyHead}>
@@ -36,8 +37,7 @@ const CardPaymentBody = () => {
           </button>
         </div>
         <p className={style.or}>
-          
-          <span>Or pay with card</span> 
+          <span>Or pay with card</span>
         </p>
 
         <div className={style.input}>
@@ -63,7 +63,9 @@ const CardPaymentBody = () => {
           <input type="text" />
         </div>
 
-        <button className={style.cardPay}>Pay £1650.00</button>
+        <Link to="/PaymentSuccess">
+          <button className={style.cardPay}>Pay £1650.00</button>
+        </Link>
       </div>
     </div>
   );

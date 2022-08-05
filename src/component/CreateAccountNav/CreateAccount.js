@@ -7,7 +7,7 @@ import {RiArrowDropRightLine} from 'react-icons/ri'
 import { FiCreditCard } from 'react-icons/fi'
 
 
-const CreateAccount = ({acc,pack, pay}) => {
+const CreateAccount = ({acc,pack, pay, login}) => {
   console.log(acc,pack);
   return (
     <div className={style.container}>
@@ -39,7 +39,7 @@ const CreateAccount = ({acc,pack, pay}) => {
             </div>
 
             <div className={style.icon}>
-              <FiCreditCard size={25} className={style.icon3}/>
+              <FiCreditCard size={25} className={login ? style.icon3 : style.loginIcon}/>
 
               <div>
               <p className={style.title}>Login</p>

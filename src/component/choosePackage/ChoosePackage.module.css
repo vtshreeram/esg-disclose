@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
 .container{
     display: flex;
-    overflow: hidden;
+    align-items: center;
   
   }
 
   .menu{
     width: 1000px;
-    margin: 30px auto;
+    margin: 0 auto;
+    /* margin-top: 20%; */
     border-radius: 8px;
   }
 
@@ -24,19 +26,10 @@
 
   .icon1{
     color: white;
-    background: #3F87C2;
-    padding: 8px;
-    border-radius: 7px;
-    margin-right: 5px;
-  }
-
-  .accontIcon{
-    color: white;
     background: gray;
-    padding: 8px;
+padding: 8px;
     border-radius: 7px;
     margin-right: 5px;
-
   }
 
   .icon2{
@@ -47,29 +40,12 @@
     margin-right: 5px;
   }
 
-  .packageIcon{
-    color: white;
-    background: gray;
-    padding: 8px;
-    border-radius: 7px;
-    margin-right: 5px;
-
-  }
-
   .icon3{
     color: white;
-    background: #3F87C2;
-    padding: 8px;
-    border-radius: 7px;
-    margin-right: 5px;
-  }
-  .loginIcon{
-    color: white;
     background: gray;
     padding: 8px;
     border-radius: 7px;
     margin-right: 5px;
-
   }
 
   .title{
@@ -79,7 +55,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 21px;
-color: #5e5873;
+color: #5E5873;
   }
 
 .suntitle{
@@ -107,10 +83,4 @@ color: #8F8AA4;
 
 /* BodyStyle */
 
-.img{
-  height: 100vh;
-}
 
-.fullImage{
-  height: 125vh;
-}
